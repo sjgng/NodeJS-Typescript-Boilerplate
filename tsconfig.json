@@ -1,0 +1,16 @@
+{
+  "extends": "@tsconfig/node21/tsconfig.json",
+
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ES2021",
+    "typeRoots": ["./types/global.d.ts", "./node_modules/@types"],
+    "outDir": "dist",
+    "sourceMap": true,
+    "strict": true,
+  },
+
+  "include": ["src/**/*.ts"],
+  "exclude": ["**/*.spec.ts"],
+}

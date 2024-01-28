@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-typescript-boilerplate",
+  "version": "69.69.69",
+  "description": "dupa dupa",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src/**/*.ts",
+    "format": "eslint src/**/*.ts --fix",
+    "build": "tsc",
+    "start": "tsc && node ./dist/app.js",
+    "dev": "nodemon -exec 'npm run lint && SET NODE_ENV=development' "
+  },
+  "keywords": [],
+  "author": "hwdpjphttp692137",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/node21": "^21.0.1",
+    "@types/node": "^20.11.9",
+    "@typescript-eslint/eslint-plugin": "^6.19.1",
+    "@typescript-eslint/parser": "^6.19.1",
+    "dotenv": "^16.4.1",
+    "eslint": "^8.56.0",
+    "nodemon": "^3.0.3",
+    "prettier": "^3.2.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
