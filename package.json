@@ -7,11 +7,11 @@
     "lint": "eslint src/**/*.ts",
     "format": "eslint src/**/*.ts --fix",
     "build": "tsc",
-    "start": "tsc && node ./dist/app.js",
+    "start": "tsc && node ./dist/app.js ** SET NODE_ENV=production",
     "dev": "nodemon -exec 'npm run lint && SET NODE_ENV=development' "
   },
   "keywords": [],
-  "author": "hwdpjphttp692137",
+  "author": "papaj2137",
   "license": "ISC",
   "devDependencies": {
     "@tsconfig/node21": "^21.0.1",
