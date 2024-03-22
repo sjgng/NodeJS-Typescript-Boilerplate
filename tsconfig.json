@@ -5,7 +5,7 @@
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "target": "ESNext",
-    "typeRoots": ["./types/global.d.ts", "./node_modules/@types"],
+    "typeRoots": ["./types/*.d.ts", "./node_modules/@types"],
     "outDir": "dist",
     "sourceMap": true,
     "strict": true,

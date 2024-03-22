@@ -1,18 +1,18 @@
 {
-  "name": "nodejs-typescript-boilerplate",
+  "name": "",
   "version": "69.69.69",
-  "description": "dupa dupa",
+  "description": "0",
   "main": "index.js",
   "scripts": {
     "lint": "eslint src/**/*.ts",
     "format": "eslint src/**/*.ts --fix",
     "build": "tsc",
-    "start": "tsc && node ./dist/app.js ** SET NODE_ENV=production",
+    "start": "tsc && node ./dist/app.js && SET NODE_ENV=production",
     "dev": "nodemon -exec 'npm run lint && SET NODE_ENV=development' "
   },
   "keywords": [],
-  "author": "papaj2137",
-  "license": "ISC",
+  "author": "null",
+  "license": "",
   "devDependencies": {
     "@tsconfig/node21": "^21.0.1",
     "@types/node": "^20.11.9",
