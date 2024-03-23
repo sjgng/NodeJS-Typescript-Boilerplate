@@ -1,5 +1,5 @@
 function dupa() {
-  console.log('Hello dupa');
+  console.log('Hello World!');
 }
 
 dupa();

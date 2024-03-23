@@ -8,21 +8,20 @@
     "format": "eslint src/**/*.ts --fix",
     "build": "tsc",
     "start": "tsc && node ./dist/app.js && SET NODE_ENV=production",
-    "dev": "nodemon -exec 'npm run lint && SET NODE_ENV=development' "
+    "dev": "tsnd --respawn ./src/app.ts && SET NODE_ENV=development' "
   },
   "keywords": [],
   "author": "null",
   "license": "",
   "devDependencies": {
-    "@tsconfig/node21": "^21.0.1",
-    "@types/node": "^20.11.9",
-    "@typescript-eslint/eslint-plugin": "^6.19.1",
-    "@typescript-eslint/parser": "^6.19.1",
-    "dotenv": "^16.4.1",
-    "eslint": "^8.56.0",
-    "nodemon": "^3.0.3",
-    "prettier": "^3.2.4",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.3.3"
+    "@tsconfig/node20": "^20.1.2",
+    "@types/node": "^20.11.30",
+    "@typescript-eslint/eslint-plugin": "^7.3.1",
+    "@typescript-eslint/parser": "^7.3.1",
+    "dotenv": "^16.4.5",
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.3"
   }
 }
